@@ -1,0 +1,45 @@
+
+
+@media (min-width: 992px){
+.col-md-3 {
+    width: 25%;
+    position: fixed;
+}
+}
+@media (min-width: 992px){
+    .col-md-6 {
+        width: 50%;
+    }
+    }
+
+    .main-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-title{
+        color: #6a0202;
+        font-size: small;
+        font-weight: 700;
+    }
+
+    thead {
+        background: #93008d;
+        color: white;
+        text-align: center;
+        border: #706e70;
+    }
+
+
+    td {
+        text-align: center;
+        border: 2px solid #93008d;
+    }
+
+    tr {
+        border: 2px solid #93008d;
+    }
+    .party-logo {
+        float: left;
+        margin-left: 25px;
+    }
