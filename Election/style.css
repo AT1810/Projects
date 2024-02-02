@@ -50,6 +50,9 @@
         color: #676767;
         font-size: larger;
         font-weight: 700;
+        padding: 5px;
+        box-shadow: rgb(147 0 141) 0px -2px 4px -1px inset, rgb(147 0 141) 0px 17px 8px -43px, rgb(147 0 141) 0px 50px 100px -20px;
+        background: #edc6fe;
     }
 
     tr {
