@@ -12,9 +12,22 @@
     }
     }
 
+    .navbar{
+        padding: 0;
+    }
     .main-container{
         display: flex;
         justify-content: center;
+    }
+
+    a.cover-image {
+        padding: 0px;
+    }
+
+   
+    table {
+        border-collapse: separate;
+        border-spacing: 0px 5px;
     }
 
     .main-title{
@@ -33,7 +46,10 @@
 
     td {
         text-align: center;
-        border: 2px solid #93008d;
+        border: 1px solid #93008d;
+        color: #676767;
+        font-size: larger;
+        font-weight: 700;
     }
 
     tr {
