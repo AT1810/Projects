@@ -51,16 +51,22 @@
         font-size: larger;
         font-weight: 700;
         padding: 5px;
-        box-shadow: rgb(147 0 141) 0px -2px 4px -1px inset, rgb(147 0 141) 0px 17px 8px -43px, rgb(147 0 141) 0px 50px 100px -20px;
-        background: #edc6fe;
+        box-shadow: inset 0px 4px 10px rgb(212 121 230 / 80%);
     }
+
+
+@media (max-width: 400px){
+    td{
+        font-size: 12px;
+    }
+}
 
     tr {
         border: 2px solid #93008d;
     }
     .party-logo {
         float: left;
-        margin-left: 25px;
+        margin-left: 10px;
     }
 
     hr:not([size]) {
@@ -86,15 +92,6 @@ svg#ArrowDown {
 }
 
 
-.election ::after{
-content: "";
-    flex-grow: 1;
-    background: #ff3e87;
-    line-height: 0;
-    height: 4.5px;
-    border-radius: 12px;
-    margin: 0 8px
-}
 
 a{
     text-decoration: none;
@@ -148,3 +145,47 @@ a.constituency {
     color: red;
 }
 
+.tn-election-result-table table td{
+    border: 1px solid rgb(147 146 147);  
+}
+
+.text-dark.region-wise-national th {
+    border: 1.5px solid rgb(147 146 147);
+}
+.region-wise-table td {
+border: 1.5px solid rgb(147 146 147);
+}
+
+.text-dark.state-wise-national th {
+    border: 1.5px solid rgb(147 146 147);
+}
+.state-wise-table td {
+border: 1.5px solid rgb(147 146 147);
+}
+
+table.zone-wise-table td {
+    border: 1.4px solid rgb(147 146 147);
+}
+
+table.tn-constituency-level-table td {
+    border: 1.4px solid rgb(147 146 147);
+}
+
+.more-button p{
+    color: #676767;
+    border: 2px solid grey;
+    border-radius: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 700;
+}
+
+.main-ad-block{
+border: 1px solid black;
+}
+
+th.streched-row {
+    padding: 5px;
+    font-size: 26px;
+    color: rgb(147 146 147);
+}
