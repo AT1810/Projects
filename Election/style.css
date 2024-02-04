@@ -72,3 +72,79 @@
     margin-left: 15px;
     margin-right: 15px;
    }
+
+   svg#upArrow {
+    width: 22px;
+    height: 23px;
+    position: relative;
+    bottom: 3px;
+   }
+
+svg#ArrowDown {
+    width: 23px;
+    height: 17px;
+}
+
+
+.election ::after{
+content: "";
+    flex-grow: 1;
+    background: #ff3e87;
+    line-height: 0;
+    height: 4.5px;
+    border-radius: 12px;
+    margin: 0 8px
+}
+
+a{
+    text-decoration: none;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    width: 153px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    width: 153px;
+}
+.text-dark {
+    font-weight: 500;
+}
+@media screen and (max-width: 767px){
+.list-group-flush {
+    border-radius: 0;
+    overflow: auto;
+   display: flex;
+   flex-wrap: wrap;
+
+}
+}
+
+.thumb-icon.col-md-12.col-sm-12.px-0 {
+    display: flex;
+    justify-content: center;
+}
+
+.thumb-icon svg{
+    width: 24px;
+}
+  
+.list-group-flush{
+    overflow: auto;
+}
+
+h4.can_name {
+    font-size: 12px;
+}
+
+a.constituency {
+    font-size: 16px;
+    color: red;
+}
+
