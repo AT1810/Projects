@@ -189,3 +189,13 @@ th.streched-row {
     font-size: 26px;
     color: rgb(147 146 147);
 }
+
+.black_line{
+    color: black;
+}
+
+.four-state-result td {
+     border: none;
+     background: rgb(237 237 237);
+     box-shadow: none;
+}
