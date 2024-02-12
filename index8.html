@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Election</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="main-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 left-block"></div>
+                <div class="col-md-6 col-sm-12 mt-3 main-block border px-3 container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="back">
+                                <a href="#">
+                                    <p class="d-flex justify-content-start text-secondary">
+                                        < Back </p>
+                                </a>
+                            </div>
+                            <header
+                                class="header logo col-md-12 col-sm-12 d-flex align-items-center justify-content-center border-bottom border-dark">
+                                <a class="logo" href="#">
+                                    <img src="Images/WhatsApp Image 2024-02-02 at 17.03.40_e466c670.jpg" width="36"
+                                        alt="Logo" />
+                                </a>
+                            </header>
+                        </div>
+                    </div>
+
+                    <div class="tn-central-zone-detail col-md-12 col-sm-12 mt-2">
+
+                        <div class="tn-central-zone-detail heading col-md-12 col-sm-12">
+                            <a href="#">
+                                <p class="px-3 mt-4 fs-5 text-white d-flex justify-content-center state">TN Central Zone
+                                </p>
+                            </a>
+                        </div>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="table-container">
+                                    <table class="tn-central-zone-detail">
+                                        <thead class="text-dark region-wise-national" style="background:none;">
+
+                                            <tr>
+                                                <th style="border: none;"></th>
+                                                <th style="background: rgb(255, 51, 0);">DMK+</th>
+                                                <th style="background: rgb(5, 210, 8);">ADMK+</th>
+                                                <th style="background: rgb(116, 108, 225);">ADMK+</th>
+                                            </tr>
+                                            <tr>
+                                                <th>Constituencies</th>
+                                                <th>5<span class="text-success pt-3">+9</span>
+                                                </th>
+                                                <th>0<span class="text-danger">-5</span>
+                                                </th>
+                                                <th>2<span class="text-success" >+2</span>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Karur</td>
+                                                <td>12000</td>
+                                                <td>1000</td>
+                                                <td>1000</td>
+                                              
+                                            </tr>
+                                            <tr>
+                                                <td>Mlyaduthurai</td>
+                                                <td>12000</td>
+                                                <td>1000</td>
+                                                <td>1000</td>
+                                              
+                                            </tr>
+                                            <tr>
+                                                <td>Perambalur</td>
+                                                <td>12000</td>
+                                                <td>1000</td>
+                                                <td>1000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Tanjor</td>
+                                                <td>12000</td>
+                                                <td>1000</td>
+                                                <td>1000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Trichy</td>
+                                                <td>12000</td>
+                                                <td>1000</td>
+                                                <td>1000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Telangana</td>
+                                                <td>12000</td>
+                                                <td>1000</td>
+                                                <td>1000</td>
+                                            </tr>
+                                            <tr class="fs-6 fw-600 last-total">
+                                                <td>Total Votes</td>
+                                                <td>60000</td>
+                                                <td>5000</td>
+                                                <td>5000</td>
+                                            </tr>
+
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="container pt-4">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <h5 class="text-success text-center">Vote Share</h5> 
+                                <h4 class=" text-secondary text-center">TN Central Region</h4>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="container donut-chart">
+                                    <div class="detail-donut-state d-flex justify-content-center">
+                                    <div id="legend" class="pb-5">
+                                        <div id="segment1"></div>
+                                        <div>DMK+</div>
+                                        <div id="segment2"></div>
+                                        <div>AIDMK+</div>
+                                        <div id="segment3"></div>
+                                        <div>Others</div>
+                                    </div>
+                                </div>
+                                <div class="circle detail-donut-state">
+
+                                    <div id="donut"></div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-12 col-sm-12">
+                        <div class="end d-flex align-items-center justify-content-center mt-3"
+                            style="width: 100%; height: 40px; background: #75197c"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 right-block"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

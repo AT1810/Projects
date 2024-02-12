@@ -1,0 +1,602 @@
+
+@media (min-width: 992px){
+.col-md-3 {
+    width: 25%;
+}
+}
+@media (min-width: 992px){
+    .col-md-6 {
+        width: 50%;
+    }
+    }
+
+    .navbar{
+        padding: 0;
+    }
+    .main-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    a.cover-image {
+        padding: 0px;
+    }
+
+   
+    table {
+        border-collapse: separate;
+        border-spacing: 0px 5px;
+    }
+
+    .main-title{
+        color: #7e0e0e;
+        font-size: small;
+        font-weight: 700;
+    }
+
+    thead {
+        background: #93008d;
+        color: white;
+        text-align: center;
+        border: #706e70;
+    }
+
+
+    td {
+        text-align: center;
+        border: 1px solid #93008d;
+        color: #676767;
+        font-size: larger;
+        font-weight: 700;
+        padding: 5px;
+        box-shadow: inset 0px 4px 10px rgba(201, 146, 212, 0.8);
+    }
+
+
+@media (max-width: 400px){
+    td{
+        font-size: 12px;
+    }
+}
+
+    tr {
+        border: 2px solid #93008d;
+    }
+    .party-logo {
+        float: left;
+        margin-left: 10px;
+    }
+
+    @media (max-width: 400px){
+    .party-logo {
+        margin-left: 0px;
+        width: 32px;
+        height: auto;
+    }
+}
+
+.reason-wise-national-election-result-table {
+    overflow: auto;
+}
+
+.state-wise-national-election-result-table {
+    overflow: auto;
+}
+
+    hr:not([size]) {
+        height: 2px;
+    }
+
+
+   svg#upArrow {
+    width: 22px;
+    height: 23px;
+    position: relative;
+    bottom: 3px;
+   }
+
+svg#ArrowDown {
+    width: 23px;
+    height: 17px;
+}
+
+.party-candidate-page td{
+    border: none;
+    box-shadow: none;
+    font-size: 15px;
+    text-wrap: nowrap;
+    padding: 2px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.candidate-image-star .profileImg_Box img {
+    border-radius: 0%;
+}
+
+.text-dark {
+    font-weight: 500;
+}
+@media screen and (max-width: 767px){
+.list-group-flush {
+    border-radius: 0;
+    overflow: auto;
+   
+}
+}
+
+.thumb-icon.col-md-12.col-sm-12.px-0 {
+    display: flex;
+    justify-content: center;
+}
+
+.thumb-icon svg{
+    width: 24px;
+}
+  
+.list-group-flush{
+    overflow: auto;
+}
+
+h4.can_name {
+    font-size: 12px;
+    text-wrap: nowrap;
+    padding-top: 10px;
+    color: red;
+}
+
+.star-Candidates-Box h4.can_name {
+    font-size: large;
+    text-wrap: nowrap;
+    padding-top: 10px;
+    color: grey;
+}
+
+a.constituency {
+    font-size: 16px;
+    color: red;
+}
+
+.tn-election-result-table table td{
+    border: 1px solid rgb(147 146 147);  
+}
+
+.text-dark.region-wise-national th {
+    border: 1.5px solid rgb(147 146 147);
+}
+.region-wise-table td {
+border: 1.5px solid rgb(147 146 147);
+}
+
+.text-dark.state-wise-national th {
+    border: 1.5px solid rgb(147 146 147);
+}
+.state-wise-table td {
+border: 1.5px solid rgb(147 146 147);
+}
+
+table.zone-wise-table td {
+    border: 1.4px solid rgb(147 146 147);
+}
+
+table.tn-constituency-level-table td {
+    border: 1.4px solid rgb(147 146 147);
+}
+
+.more-button p{
+    color: #676767;
+    border: 2px solid grey;
+    border-radius: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 700;
+}
+
+.main-ad-block{
+border: 1px solid black;
+}
+
+th.streched-row {
+    padding: 5px;
+    font-size: 26px;
+    color: rgb(147 146 147);
+}
+
+.black_line{
+    color: black;
+}
+
+.four-state-result td {
+     border: none;
+     background: rgb(237 237 237);
+     box-shadow: none;
+}
+
+
+@media screen and (max-width: 767px){
+th {
+font-size: 10px;
+}
+}
+
+
+span.constituency.mb-1 {
+    color: black;
+}
+
+.four-state-result.col-md-12.col-sm-12.col-xs-12 {
+    overflow: auto;
+}
+
+.article-title{
+    font-size: 23px;
+    font-weight: 600;
+    text-wrap: balance;
+}
+
+.article-image img{
+    border: 1px solid black;
+    border-radius: 15px ;
+}
+
+h6.article-description {
+    font-size: 22px;
+}
+.list-group-item{
+    border: none;
+}
+table{
+    overflow: auto;
+    width: 100%;
+}
+
+.today-campaign-table td{
+box-shadow:none;
+font-size: medium;
+border: none;
+}
+
+svg#schedule {
+    width: 24px;
+}
+
+.title {
+        font-size: large;
+        font-weight: 700;
+        color: #9a3792;
+
+}
+
+.star_cadidate_profile.can_detail h4{
+    color: grey;
+}
+
+.star-candidate-news-coverage h6.article-title{
+    font-size: medium;
+}
+
+.star-candidate-news-coverage h6.article-description {
+    font-size: medium;
+}
+.fixed-image {
+    width: 150px; 
+    height: 150px;
+    overflow: hidden;
+}
+
+.fixed-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+@media screen and (max-width: 575px){
+.fixed-image {
+    width: 120px; 
+    height: 120px;
+    overflow: hidden;
+}
+}
+
+.tn-constituency-level-table td {
+    padding: 5px;
+}
+.tn-constituency-level-table {
+        border-spacing: 5px;
+}
+
+.tn-constituency-level-table table{
+border-spacing: 4px;
+}
+
+.table-container {
+    overflow: auto;
+}
+
+
+.party-candidate-page td {
+    text-align: left;
+}
+
+.party-candidate-page tr:first-child td:nth-child(2) {
+    color: #95358d;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.back p{
+    position: absolute;
+    font-size: larger;
+    font-weight: 600;
+    top: 20px;
+}
+
+.candidate-2024-party h4.can_name{
+    text-wrap: balance;
+        color: grey;
+        font-size: medium;
+        font-weight: 700;
+    
+}
+
+.main-ad-block img.img-fluid {
+    border-radius: 0;
+}
+
+@media screen and (max-width: 575px){
+.candidate-2024-party .fixed-image {
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+}
+}
+
+@media screen and (min-width: 400px){
+.candidate-2024-party .list-group-flush {
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+}
+}
+
+@media screen and (max-width: 476px){
+.candidate-2024-party .list-group-flush {
+    overflow: auto;
+    grid-template-columns: repeat(2,50%);
+    display: grid;
+}
+}
+
+@media screen and (max-width: 1200px) and (min-width: 991px) {
+.candidate-2024-party .fixed-image {
+    width: 100px;
+    height: 100px;
+}
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .candidate-2024-party .fixed-image {
+        width: 70px;
+        height: 70px;
+    }
+    }
+
+    @media screen and (max-width: 768px) and (min-width: 575px) {
+        .candidate-2024-party .fixed-image {
+            width: 120px;
+            height: 120px;
+        }
+        }
+
+
+        .big-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .category-icon img {
+            padding: 3px;
+            border: 2px solid;
+            border-radius: 50%;
+        }
+
+        .big-card-section {
+padding: 10px;
+            position: relative;
+        }
+        
+        .big-card-section {
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        }
+
+        .big-card-inner-description h4 {
+            font-weight: 700;
+        }
+        .big-card-top-header {
+            position: absolute;
+            top: 56px;
+            left: 10px;
+            min-width: 120px;
+            padding: 2px 35px 5px 10px;
+            color: #fff;
+            background-color: #c80000;
+            clip-path: polygon(0 0,88% 0,100% 100%,0 100%);
+            z-index: 9999;
+        }
+
+        .big-card-top-header h5 {
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        a.location-anchor {
+            color: white;
+        }
+        .southern-region-table .state{
+            background-color: #95358d; 
+        }
+
+        .southern-region-table td {
+            border: 1.5px solid rgb(147 146 147);
+        }
+
+        .southern-region-table tr {
+            border: none;
+        }
+        .southern-region-table table{
+            border-collapse:collapse;
+            border-spacing: none;
+        }
+
+
+
+        .tn-central-zone-detail .state{
+            background-color: #95358d; 
+        }
+
+        .tn-central-zone-detail td {
+            border: 1.5px solid rgb(147 146 147);
+            font-size: medium;
+
+        }
+
+        .tn-central-zone-detail tr {
+            border: none;
+        }
+        .tn-central-zone-detail table{
+            border-collapse:collapse;
+            border-spacing: none;
+        }
+        .chennai-north-page td {
+            border: none;
+            box-shadow: none;
+            font-size: 15px;
+            text-wrap: nowrap;
+            padding: 2px;
+        }
+
+        .chennai-north-page tr:first-child td:nth-child(1) {
+            color: #95358d;
+            font-weight: bold;
+        }
+        
+        .chennai-north-page tr:last-child td:nth-child(1) {
+            color: #95358d;
+            font-weight: bold;
+        }
+        .chennai-north-page tr:last-child td:nth-child(2) {
+            color: #95358d;
+            font-weight: bold;
+        }
+        .chennai-north-page-table-2 td {
+            border: none;
+            box-shadow: none;
+            font-size: 15px;
+            text-wrap: nowrap;
+            padding: 2px;
+        }
+        .chennai-north-page-table-3 td {
+            border: none;
+            box-shadow: none;
+            font-size: 15px;
+            text-wrap: nowrap;
+            padding: 2px;
+        }
+        .chennai-north-page-table-3 table {
+            text-align: center;
+        }
+        .chennai-north-page-table-3 th {
+         border-bottom: 1px solid grey;
+        }
+
+
+       .chennai-north-page .state{
+        background-color: #95358d;
+       }
+
+       .chennai-north-page table{
+        width: 85%;
+       }
+
+       .details-heading {
+        color: #95358d;
+       }
+
+
+#donut {
+    width: 300px; height: 300px;
+    border-radius: 50%;
+  
+    background: conic-gradient( #f0924f 162deg 80deg, #678af1 80deg 298deg, #a3a3a3 190deg 360deg );
+  }
+
+
+  .detail-donut-state #donut {
+    width: 300px; height: 300px;
+    border-radius: 50%;
+    background: conic-gradient( #ea2d03 223deg 80deg, #02e64a 80deg 327deg, #0546e8 190deg 360deg );
+  }
+
+  .container.donut-chart {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+  
+  #donut::before {
+    content: "";
+    width: 180px; height: 180px;
+    border-radius: 50%;
+    background: #fff;
+  }
+  
+ 
+  #donut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #legend {
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  
+  #legend div { padding: 0 10px; }
+  #segment1 {     background: #f09250; }
+  #segment2 {     background: #6c9de3; }
+  #segment3 { background: #a3a3a3; }
+
+  .detail-donut-state #legend div { padding: 0 10px; }
+  .detail-donut-state #segment1 {     background: #ea2d03; }
+  .detail-donut-state #segment2 {     background: #02e64a ; }
+  .detail-donut-state #segment3 { background: #0546e8; }
+  
+
+  .circle {
+    display: flex;
+    justify-content: center;
+}
+
+
+.party-all-detail-heading{
+    color: #95358d;
+    text-align: center;
+}
+
+.last-total td {
+    font-size: larger;
+    color: black;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid;
+}
